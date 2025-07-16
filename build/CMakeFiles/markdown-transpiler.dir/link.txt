@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/markdown-transpiler.dir/src/main.cpp.o" "CMakeFiles/markdown-transpiler.dir/src/lexer.cpp.o" "CMakeFiles/markdown-transpiler.dir/src/parser.cpp.o" "CMakeFiles/markdown-transpiler.dir/src/generator.cpp.o" -o bin/markdown-transpiler
