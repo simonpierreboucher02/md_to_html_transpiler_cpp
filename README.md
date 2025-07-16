@@ -1,19 +1,27 @@
 # Markdown to HTML Transpiler
 
-[![License: MIT](https://img.shields.io/github/license/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](LICENSE)
-[![Language: C++](https://img.shields.io/github/languages/top/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler/search?l=cpp)
-[![Last Commit](https://img.shields.io/github/last-commit/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler/commits/main)
-[![Open Issues](https://img.shields.io/github/issues/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler/issues)
-[![Open PRs](https://img.shields.io/github/issues-pr/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler/pulls)
-[![Stars](https://img.shields.io/github/stars/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler/stargazers)
-[![Forks](https://img.shields.io/github/forks/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler/network/members)
-[![Repo Size](https://img.shields.io/github/repo-size/simonpierreboucher02/Markdown_to_HTML_Transpiler?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler)
+[![License: MIT](https://img.shields.io/github/license/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](LICENSE)
+[![Language: C++](https://img.shields.io/github/languages/top/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/search?l=cpp)
+[![Last Commit](https://img.shields.io/github/last-commit/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/commits/main)
+[![Open Issues](https://img.shields.io/github/issues/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/pulls)
+[![Stars](https://img.shields.io/github/stars/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/stargazers)
+[![Forks](https://img.shields.io/github/forks/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/network/members)
+[![Repo Size](https://img.shields.io/github/repo-size/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp)
 [![Platform: CMake](https://img.shields.io/badge/platform-cmake-blue?style=flat-square)](https://cmake.org/)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler/actions)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/actions)
+[![C++ Version](https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=c%2B%2B)](https://isocpp.org/)
+[![Code Lines](https://img.shields.io/tokei/lines/github/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp)
+[![GitHub Contributors](https://img.shields.io/github/contributors/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/graphs/contributors)
+[![GitHub Commits](https://img.shields.io/github/commit-activity/t/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/commits)
+[![GitHub Release](https://img.shields.io/github/v/release/simonpierreboucher02/md_to_html_transpiler_cpp?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/simonpierreboucher02/md_to_html_transpiler_cpp/total?style=flat-square)](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp/releases)
 
 ---
 
-> **GitHub Repo:** [simonpierreboucher02/Markdown_to_HTML_Transpiler](https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler)
+> **GitHub Repo:** [simonpierreboucher02/md_to_html_transpiler_cpp](https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp)
+> 
+> **👨‍💻 Author:** [Simon Pierre Boucher](https://github.com/simonpierreboucher02)
 
 A C++ implementation of a Markdown to HTML transpiler that demonstrates compiler design principles including lexical analysis, parsing, and code generation.
 
@@ -103,8 +111,8 @@ Element("ul", [
 
 1. **Clone or download the project**
    ```bash
-   git clone https://github.com/simonpierreboucher02/Markdown_to_HTML_Transpiler.git
-   cd Markdown_to_HTML_Transpiler
+   git clone https://github.com/simonpierreboucher02/md_to_html_transpiler_cpp.git
+   cd md_to_html_transpiler_cpp
    ```
 
 2. **Create build directory**
